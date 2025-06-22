@@ -246,7 +246,7 @@ exports.login = async (req,res)=>{
 
             email:user.email,
             id : user._id,
-            role:user.role,
+            role:user.accountType,
 
         }
 
@@ -300,9 +300,8 @@ exports.login = async (req,res)=>{
 //change password
 
 exports.changePassword = (req, res)=>{
-
     
-
+    
 }
 
 
