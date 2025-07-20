@@ -297,12 +297,6 @@ exports.login = async (req,res)=>{
 
 }
 
-//change password
-
-exports.changePassword = (req, res)=>{
-    
-    
-}
 
 
 
